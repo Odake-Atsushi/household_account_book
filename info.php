@@ -9,7 +9,7 @@
 <body>
     <h1>家計簿　詳細</h1>
     <?php
-    $dsn = 'sqlite:/home/atsushi/household_account_book/db/habdb.sqlite3'; //a+w(ディレクトリ)
+    $dsn = 'sqlite:db/habdb.sqlite3'; //a+w(ディレクトリ)
     // create table hab(id integer primary key, date_y integer, date_m integer, date_d integer, money integer, title text, memo text);
     $db = new PDO($dsn);
 
