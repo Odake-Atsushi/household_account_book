@@ -1,5 +1,8 @@
 # household_account_book
 web 家計簿
 
-データベースはsqlite3
-php
+debian
+
+```
+apt install sqlite3 php-sqlite3 apache2
+```
